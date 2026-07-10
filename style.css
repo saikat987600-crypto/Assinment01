@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+    padding: 15px 0;
+    text-align: center;
+    background:#FFFFFF;
+    border-radius: 5px;
+}
+nav ul{
+ display: flex;
+ gap:50px;
+ padding-top: 10px;
+}
+li{
+    list-style: none;
+      padding-bottom: 15px;
+
+}
+a{
+    text-decoration: none;
+    font-size: 15px;
+  color: #575757;
+  font-weight: 600;
+}
+.btn{
+    padding-top: 6px;
+    padding: 8px 50px;
+    background: #1D4ED8;
+    color:#FFFFFF ;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+}
+header{
+   background-image:
+   linear-gradient(   rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+      ),
+   url('./images/banner.jpg');
+ height: 90vh;
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+ display: grid;
+ justify-content: center;
+ align-items: center;
+}
+
+.hedar_conten {
+display: grid;
+justify-content: center;
+align-content: space-between;
+text-align: center;
+gap: 10px;
+
+}
+.hedar_conten h1{
+color: #FFFFFF;
+font-weight: bold;
+font-size: 50px;
+}
+.hedar_conten p{
+color: #d8d8d8;
+margin-bottom: 40%;
+}
+.button{
+
+margin: 0 auto;
+}
+.button button{
+       padding: 15px 50px;
+    background: #1D4ED8;
+    color:#FFFFFF ;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    display: grid;
+    align-items: center;
+}
